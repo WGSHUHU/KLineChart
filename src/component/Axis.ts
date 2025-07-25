@@ -24,6 +24,8 @@ export interface AxisTick {
   value: number | string
   text: string
   textCoord?: number
+  height?: number
+  width?: number
 }
 
 export interface AxisRange extends VisibleRange {
